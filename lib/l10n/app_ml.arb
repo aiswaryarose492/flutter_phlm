@@ -1,0 +1,17 @@
+{
+  "@@locale": "ml",
+  "appName": "PHLM",
+  "role_patient": "രോഗി",
+  "role_doctor": "ഡോക്ടർ",
+  "role_staff": "ജീവനക്കാരൻ",
+  "role_admin": "അഡ്മിൻ",
+  "role_lab": "ലാബ്",
+  "role_pharmacy": "ഫാർമസി",
+  "action_book": "ബുക്ക് ചെയ്യുക",
+  "action_cancel": "റദ്ദാക്കുക",
+  "action_confirm": "സ്ഥിരീകരിക്കുക",
+  "action_save": "സേവ് ചെയ്യുക",
+  "settings_language": "ഭാഷ",
+  "settings_dark_mode": "ഇരുണ്ട മോഡ്",
+  "offline_banner": "ഓഫ്‌ലൈൻ — കാഷ് ചെയ്ത ഡാറ്റ കാണിക്കുന്നു"
+}

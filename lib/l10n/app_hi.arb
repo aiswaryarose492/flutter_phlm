@@ -1,0 +1,17 @@
+{
+  "@@locale": "hi",
+  "appName": "PHLM",
+  "role_patient": "मरीज",
+  "role_doctor": "डॉक्टर",
+  "role_staff": "कर्मचारी",
+  "role_admin": "व्यवस्थापक",
+  "role_lab": "लैब",
+  "role_pharmacy": "फार्मेसी",
+  "action_book": "बुक करें",
+  "action_cancel": "रद्द करें",
+  "action_confirm": "पुष्टि करें",
+  "action_save": "सहेजें",
+  "settings_language": "भाषा",
+  "settings_dark_mode": "डार्क मोड",
+  "offline_banner": "ऑफ़लाइन — कैश किया गया डेटा दिखा रहे हैं"
+}

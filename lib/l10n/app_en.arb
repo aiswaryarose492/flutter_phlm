@@ -1,0 +1,17 @@
+{
+  "@@locale": "en",
+  "appName": "PHLM",
+  "role_patient": "Patient",
+  "role_doctor": "Doctor",
+  "role_staff": "Staff",
+  "role_admin": "Admin",
+  "role_lab": "Lab",
+  "role_pharmacy": "Pharmacy",
+  "action_book": "Book",
+  "action_cancel": "Cancel",
+  "action_confirm": "Confirm",
+  "action_save": "Save",
+  "settings_language": "Language",
+  "settings_dark_mode": "Dark Mode",
+  "offline_banner": "Offline — showing cached data"
+}
