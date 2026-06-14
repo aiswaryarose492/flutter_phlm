@@ -1,0 +1,261 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@example.com",
+      "first_name": "",
+      "last_name": "",
+      "is_hospital_admin": false,
+      "is_doctor": false,
+      "is_patient": false,
+      "is_lab": false,
+      "is_pharmacy": false,
+      "is_staff_member": false
+    },
+    {
+      "id": 3,
+      "username": "azeezia",
+      "email": "",
+      "first_name": "",
+      "last_name": "",
+      "is_hospital_admin": true,
+      "is_doctor": false,
+      "is_patient": false,
+      "is_lab": false,
+      "is_pharmacy": false,
+      "is_staff_member": false
+    },
+    {
+      "id": 101,
+      "username": "drakshaya",
+      "email": "akshayas21034@gmail.com",
+      "first_name": "Akshaya",
+      "last_name": "S",
+      "is_hospital_admin": false,
+      "is_doctor": true,
+      "is_patient": false,
+      "is_lab": false,
+      "is_pharmacy": false,
+      "is_staff_member": false
+    },
+    {
+      "id": 107,
+      "username": "amith",
+      "email": "amith@gmail.com",
+      "first_name": "Amith",
+      "last_name": "R",
+      "is_hospital_admin": false,
+      "is_doctor": false,
+      "is_patient": false,
+      "is_lab": false,
+      "is_pharmacy": true,
+      "is_staff_member": false
+    },
+    {
+      "id": 110,
+      "username": "aiswarya",
+      "email": "aiswaryarose492@gmail.com",
+      "first_name": "Aiswarya",
+      "last_name": "m",
+      "is_hospital_admin": false,
+      "is_doctor": false,
+      "is_patient": true,
+      "is_lab": false,
+      "is_pharmacy": false,
+      "is_staff_member": false
+    },
+    {
+      "id": 111,
+      "username": "admin270",
+      "email": "admin@test.com",
+      "first_name": "Test",
+      "last_name": "Admin",
+      "is_hospital_admin": false,
+      "is_doctor": false,
+      "is_patient": true,
+      "is_lab": false,
+      "is_pharmacy": false,
+      "is_staff_member": false
+    },
+    {
+      "id": 112,
+      "username": "testpatient123",
+      "email": "",
+      "first_name": "",
+      "last_name": "",
+      "is_hospital_admin": false,
+      "is_doctor": false,
+      "is_patient": true,
+      "is_lab": false,
+      "is_pharmacy": false,
+      "is_staff_member": false
+    },
+    {
+      "id": 113,
+      "username": "neethi",
+      "email": "neethilab@gmail.com",
+      "first_name": "Neethi",
+      "last_name": "Lab",
+      "is_hospital_admin": false,
+      "is_doctor": false,
+      "is_patient": false,
+      "is_lab": true,
+      "is_pharmacy": false,
+      "is_staff_member": false
+    },
+    {
+      "id": 114,
+      "username": "cfor595753",
+      "email": "cfor595@gmail.com",
+      "first_name": "Anupriya ",
+      "last_name": "M",
+      "is_hospital_admin": false,
+      "is_doctor": false,
+      "is_patient": true,
+      "is_lab": false,
+      "is_pharmacy": false,
+      "is_staff_member": false
+    },
+    {
+      "id": 115,
+      "username": "admin098",
+      "email": "admin@gmail.com",
+      "first_name": "",
+      "last_name": "",
+      "is_hospital_admin": false,
+      "is_doctor": false,
+      "is_patient": false,
+      "is_lab": false,
+      "is_pharmacy": false,
+      "is_staff_member": false
+    }
+  ],
+  "hospitals": [
+    {
+      "id": 3,
+      "user_id": 3,
+      "name": "AZEEZIA HOSPITAL",
+      "address": "Azeezia Hospital,Cheekode,Alathur,Kerala,Palakkad,678684",
+      "max_leave_days": 12,
+      "extra_leave_deduction": 0
+    }
+  ],
+  "doctors": [
+    {
+      "id": 33,
+      "user_id": 101,
+      "hospital_id": 3,
+      "specialty": "Neurology",
+      "department": "General Medicine",
+      "experience": 6,
+      "available": true
+    }
+  ],
+  "patients": [
+    {
+      "id": 5,
+      "user_id": 110,
+      "hospital_id": 3,
+      "phone": "6789543123",
+      "date_of_birth": "2006-03-21",
+      "gender": "Female",
+      "address": "thrissur"
+    },
+    {
+      "id": 6,
+      "user_id": 111,
+      "hospital_id": 3,
+      "phone": "1234567890",
+      "date_of_birth": null,
+      "gender": "Male",
+      "address": ""
+    },
+    {
+      "id": 7,
+      "user_id": 114,
+      "hospital_id": 3,
+      "phone": "8111978722",
+      "date_of_birth": "2009-12-31",
+      "gender": "Female",
+      "address": ""
+    }
+  ],
+  "appointments": [
+    {
+      "id": 8,
+      "doctor_id": 33,
+      "patient_id": 6,
+      "date": "2026-02-26",
+      "time": "10:00:00",
+      "symptoms": "",
+      "status": "Completed"
+    },
+    {
+      "id": 9,
+      "doctor_id": 33,
+      "patient_id": 5,
+      "date": "2026-02-26",
+      "time": "09:00:00",
+      "symptoms": "high fever",
+      "status": "Completed"
+    },
+    {
+      "id": 10,
+      "doctor_id": 33,
+      "patient_id": 7,
+      "date": "2026-03-19",
+      "time": "10:00:00",
+      "symptoms": "",
+      "status": "Pending"
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": 2,
+      "appointment_id": 9,
+      "medicines": "No Medicines Prescribed",
+      "notes": "Take twice a day for 3 days."
+    },
+    {
+      "id": 3,
+      "appointment_id": 8,
+      "medicines": "Prescription Details:\r\n1. Amoxicillin 250mg - Morning, Night (After Food)\r\n2. Cetirizine 10mg - Morning (After Food)\r\n",
+      "notes": ""
+    }
+  ],
+  "medicines": [],
+  "wards": [],
+  "admissions": [],
+  "emergencies": [
+    {
+      "id": 2,
+      "hospital_id": 3,
+      "patient_name": "Rahul",
+      "severity": "Critical",
+      "status": "Resolved"
+    },
+    {
+      "id": 3,
+      "hospital_id": 3,
+      "patient_name": "Maheesh",
+      "severity": "Moderate",
+      "status": "Resolved"
+    },
+    {
+      "id": 4,
+      "hospital_id": 3,
+      "patient_name": "Najeeb M",
+      "severity": "Critical",
+      "status": "Resolved"
+    },
+    {
+      "id": 7,
+      "hospital_id": 3,
+      "patient_name": "sneha",
+      "severity": "Mild",
+      "status": "Resolved"
+    }
+  ],
+  "notifications": []
+}
